@@ -196,3 +196,23 @@ input[type=file] {
   border: 1px solid var(--rule); border-radius: 3px;
   font: inherit; font-size: .85rem; padding: .5rem .6rem;
 }
+
+/* --- loader ----------------------------------------------------------- */
+.loader {
+  display: flex; align-items: center; gap: .7rem;
+  margin-top: 1.2rem; padding: .8rem 1rem;
+  border: 1px solid var(--rule); border-radius: 3px; background: var(--surface);
+  font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: .8rem; color: var(--ink-soft);
+}
+.bar {
+  width: 3.2rem; height: .45rem; border-radius: 999px; overflow: hidden;
+  background: var(--sunken); position: relative; flex: none;
+}
+.bar::after {
+  content: ""; position: absolute; inset: 0; width: 40%;
+  background: var(--wall); border-radius: 999px;
+  animation: slide 1.1s ease-in-out infinite alternate;
+}
+.bar.small { width: 2.2rem; height: .4rem; display: inline-block; vertical-align: middle; margin-right: .5rem; }
+@keyframes slide { from { transform: translateX(-30%); } to { transform: translateX(180%); } }
+.chip.on { border-color: var(--wall); background: color-mix(in srgb, var(--wall) 16%, var(--sunken)); color: var(--wall); }
