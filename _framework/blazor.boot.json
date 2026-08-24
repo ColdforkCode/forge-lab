@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Wingoria.Forge.AssetLab",
   "resources": {
-    "hash": "sha256-8rsEKbi8Qi/4JIzlAl2OXbi5QYxuwzNjcCE7HAA1o1k=",
+    "hash": "sha256-h+9iz/P6ALvi+qFfeOG9Sn11wmJQLw/JCNzZb1fuO5A=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.qqazcvx8hw.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.u5t8zcgbz0.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -30,7 +30,7 @@
       "System.Net.Http.Json.zxua2qy2ci.wasm": "System.Net.Http.Json.wasm",
       "System.Net.Http.1x8ehlectd.wasm": "System.Net.Http.wasm",
       "System.Net.Primitives.um6s3v6dex.wasm": "System.Net.Primitives.wasm",
-      "System.Private.CoreLib.nqe2f38acv.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.5p6d91l3pq.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.cu50hakcm5.wasm": "System.Private.Uri.wasm",
       "System.Runtime.InteropServices.JavaScript.c36vvrjj6t.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
       "System.Runtime.jpz62pcwwu.wasm": "System.Runtime.wasm",
@@ -38,8 +38,8 @@
       "System.Text.Encodings.Web.az6magofqp.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.2mxbu1dwlx.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "System.Text.RegularExpressions.wasm",
-      "Wingoria.Forge.AssetLab.cyeli609v9.wasm": "Wingoria.Forge.AssetLab.wasm",
-      "Wingoria.ProceduralAssets.ocvl9lcw3h.wasm": "Wingoria.ProceduralAssets.wasm",
+      "Wingoria.Forge.AssetLab.nw09t47u11.wasm": "Wingoria.Forge.AssetLab.wasm",
+      "Wingoria.ProceduralAssets.e0udzsrpes.wasm": "Wingoria.ProceduralAssets.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
       "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
@@ -63,7 +63,7 @@
       "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.nqe2f38acv.wasm": "sha256-4e1+TSf0GFPGV97MsC7rG6A3AqjiEiEfgYm5qNAZNSc=",
+      "System.Private.CoreLib.5p6d91l3pq.wasm": "sha256-KcCSiY95/kExsOXH+l2ptYs3/41x/mSjF9WqmGipfbY=",
       "System.Runtime.InteropServices.JavaScript.c36vvrjj6t.wasm": "sha256-aBRJfPKhw/iL7CjlvetfKmPRKwQ1yZQqCeNMa2RgXfc="
     },
     "assembly": {
@@ -100,8 +100,8 @@
       "System.Text.Encodings.Web.az6magofqp.wasm": "sha256-1pYnog+hAQYG5AmoN8yPu2sN7VE8tXMsT6EUst0eUEo=",
       "System.Text.Json.2mxbu1dwlx.wasm": "sha256-6tB4nG6+rVNm24dm7geUb7OYBa7ajEK9zhKqpA/gKis=",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "sha256-amXg09G7aLICy0Iw8foAgqu+fMagLaSGRVxDSEaZP44=",
-      "Wingoria.Forge.AssetLab.cyeli609v9.wasm": "sha256-9KhP0FnPxREAlOiNyzDm3uy2C1LQhROcZei47omd7A4=",
-      "Wingoria.ProceduralAssets.ocvl9lcw3h.wasm": "sha256-CJE2XB+eaaa1/Ybp+KU+WdtDDdl77zfu1g9OOi3omNw="
+      "Wingoria.Forge.AssetLab.nw09t47u11.wasm": "sha256-1ykCOXTLUD0oJGWnPQ5wZmLUKWlfxiccD8x672p+0lc=",
+      "Wingoria.ProceduralAssets.e0udzsrpes.wasm": "sha256-LrzNlW54NaQgaOVCXbf2GEWyCdivBpczCwUNbPkUaW4="
     }
   },
   "cacheBootResources": true,
