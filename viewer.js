@@ -212,30 +212,48 @@ window.forgeViewer = (function () {
       state.textured = on && state.texture ? 1.0 : 0.0;
       draw(state);
     },
-    // Decodes the file chosen in <input type=file> to raw RGB for the engine.
+    // Decodes any image source (File or fetched Blob) to raw RGB for the engine.
+    _bitmapToPayload: function (bitmap, name) {
+      var canvas = document.createElement('canvas');
+      canvas.width = bitmap.width;
+      canvas.height = bitmap.height;
+      var context = canvas.getContext('2d');
+      context.drawImage(bitmap, 0, 0);
+      var pixels = context.getImageData(0, 0, bitmap.width, bitmap.height).data;
+      var rgb = new Uint8Array(bitmap.width * bitmap.height * 3);
+      for (var i = 0, o = 0; i < pixels.length; i += 4) {
+        rgb[o++] = pixels[i]; rgb[o++] = pixels[i + 1]; rgb[o++] = pixels[i + 2];
+      }
+      var binary = '';
+      for (var k = 0; k < rgb.length; k += 8192) {
+        binary += String.fromCharCode.apply(null, rgb.subarray(k, k + 8192));
+      }
+      return { width: bitmap.width, height: bitmap.height, rgbBase64: btoa(binary), name: name };
+    },
+    hasFile: function (inputId) {
+      var input = document.getElementById(inputId);
+      return !!(input && input.files && input.files[0]);
+    },
     readImageFile: function (inputId) {
+      var self = this;
       return new Promise(function (resolve, reject) {
         var input = document.getElementById(inputId);
-        if (!input || !input.files || !input.files[0]) { reject(new Error('nessun file')); return; }
+        if (!input || !input.files || !input.files[0]) { reject(new Error('nessun-file')); return; }
         var file = input.files[0];
         createImageBitmap(file).then(function (bitmap) {
-          var canvas = document.createElement('canvas');
-          canvas.width = bitmap.width;
-          canvas.height = bitmap.height;
-          var context = canvas.getContext('2d');
-          context.drawImage(bitmap, 0, 0);
-          var pixels = context.getImageData(0, 0, bitmap.width, bitmap.height).data;
-          var rgb = new Uint8Array(bitmap.width * bitmap.height * 3);
-          for (var i = 0, o = 0; i < pixels.length; i += 4) {
-            rgb[o++] = pixels[i]; rgb[o++] = pixels[i + 1]; rgb[o++] = pixels[i + 2];
-          }
-          var binary = '';
-          for (var k = 0; k < rgb.length; k += 8192) {
-            binary += String.fromCharCode.apply(null, rgb.subarray(k, k + 8192));
-          }
-          resolve({ width: bitmap.width, height: bitmap.height, rgbBase64: btoa(binary), name: file.name });
+          resolve(self._bitmapToPayload(bitmap, file.name));
         }).catch(reject);
       });
+    },
+    readImageUrl: function (url) {
+      var self = this;
+      return fetch(url)
+        .then(function (response) {
+          if (!response.ok) throw new Error('atlas ' + response.status);
+          return response.blob();
+        })
+        .then(function (blob) { return createImageBitmap(blob); })
+        .then(function (bitmap) { return self._bitmapToPayload(bitmap, url); });
     },
     setMode: function (canvasId, mode) {
       var state = states[canvasId];

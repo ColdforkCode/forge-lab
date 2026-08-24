@@ -216,3 +216,5 @@ input[type=file] {
 .bar.small { width: 2.2rem; height: .4rem; display: inline-block; vertical-align: middle; margin-right: .5rem; }
 @keyframes slide { from { transform: translateX(-30%); } to { transform: translateX(180%); } }
 .chip.on { border-color: var(--wall); background: color-mix(in srgb, var(--wall) 16%, var(--sunken)); color: var(--wall); }
+
+button.minor.gold { border-color: var(--wall); color: var(--wall); }

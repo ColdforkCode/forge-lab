@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Wingoria.Forge.AssetLab",
   "resources": {
-    "hash": "sha256-io670rogcZGlSTgpnx0fIJgm4ofRIMLWsNnlx3YfE0U=",
+    "hash": "sha256-QKb7qWJYizcfLUhvt4+M022axfVmjOXcyOrxx6RU210=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.qqazcvx8hw.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.u5t8zcgbz0.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -29,13 +29,13 @@
       "System.Private.CoreLib.43cpav6fyw.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.l91zsv831a.wasm": "System.Private.Uri.wasm",
       "System.Runtime.InteropServices.JavaScript.q2qvulo9k9.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
-      "System.Runtime.0zuchigad5.wasm": "System.Runtime.wasm",
+      "System.Runtime.2fi4asm2da.wasm": "System.Runtime.wasm",
       "System.Security.Cryptography.pqoxkf0db3.wasm": "System.Security.Cryptography.wasm",
       "System.Text.Encodings.Web.az6magofqp.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.x3cjku2609.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "System.Text.RegularExpressions.wasm",
-      "Wingoria.Forge.AssetLab.dzl993lo1g.wasm": "Wingoria.Forge.AssetLab.wasm",
-      "Wingoria.ProceduralAssets.068b5s46bx.wasm": "Wingoria.ProceduralAssets.wasm",
+      "Wingoria.Forge.AssetLab.nrb8g0q1do.wasm": "Wingoria.Forge.AssetLab.wasm",
+      "Wingoria.ProceduralAssets.jivl9riw0c.wasm": "Wingoria.ProceduralAssets.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
       "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
@@ -87,13 +87,13 @@
       "System.Linq.ybekqzaabh.wasm": "sha256-jmthCmyuctFRWsMTG3UZiamrTO3fErlKCVPzbyFEsfg=",
       "System.Memory.zag432lont.wasm": "sha256-i6YC0uWWtV0Fv1YRRzxTK4EzZfKvJxgZ14CpcKyRC64=",
       "System.Private.Uri.l91zsv831a.wasm": "sha256-KakMwQ4uAhRA2beKsSBP/ht7DdHb2PUjMncN6V6kKE4=",
-      "System.Runtime.0zuchigad5.wasm": "sha256-NB9zu27BlWqx8xd0cN9/heheJYosYAVWXnAV79Lx198=",
+      "System.Runtime.2fi4asm2da.wasm": "sha256-wq91t8QbXjjHs89jRYjI0W0A2Zik+GqcHrBqIih1Vh0=",
       "System.Security.Cryptography.pqoxkf0db3.wasm": "sha256-gWtYPFLkVRpINznnyxWWThWxSRO9EAY0gYDywZbUXF8=",
       "System.Text.Encodings.Web.az6magofqp.wasm": "sha256-1pYnog+hAQYG5AmoN8yPu2sN7VE8tXMsT6EUst0eUEo=",
       "System.Text.Json.x3cjku2609.wasm": "sha256-DTC1hkUmoTpmv5p35hO5MF5rsBG5lWtoOWZfJMVAwR4=",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "sha256-amXg09G7aLICy0Iw8foAgqu+fMagLaSGRVxDSEaZP44=",
-      "Wingoria.Forge.AssetLab.dzl993lo1g.wasm": "sha256-ibxgHQra4YpGtdQ0VOJssxFex8LtY2dA8yp2Y+UGO94=",
-      "Wingoria.ProceduralAssets.068b5s46bx.wasm": "sha256-6Cxtv0BATA+O/cAmLiiHqqCjMCFgbcJS76hAWjl1UAw="
+      "Wingoria.Forge.AssetLab.nrb8g0q1do.wasm": "sha256-k93CWn3g97BFwqPwvU7ZXi9cbkCectV0ycfRtfwFh8A=",
+      "Wingoria.ProceduralAssets.jivl9riw0c.wasm": "sha256-y6cMIRgA2cU2vY5dKbn9ZIorTrg3ruU8dsQ4tw+zgLQ="
     }
   },
   "cacheBootResources": true,
