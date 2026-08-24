@@ -222,3 +222,4 @@ button.minor.gold { border-color: var(--wall); color: var(--wall); }
   display: block; font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: .72rem; font-weight: 400; opacity: .75; margin-top: .15rem;
 }
+.verdict.warn { border-left-color: var(--wall); }
