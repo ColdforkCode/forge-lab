@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Wingoria.Forge.AssetLab",
   "resources": {
-    "hash": "sha256-QKb7qWJYizcfLUhvt4+M022axfVmjOXcyOrxx6RU210=",
+    "hash": "sha256-KWlzp1c0LHcpYTktnTOuJZ4ORU8c40FSW9Je5CJ6InU=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.qqazcvx8hw.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.u5t8zcgbz0.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -34,8 +34,8 @@
       "System.Text.Encodings.Web.az6magofqp.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.x3cjku2609.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "System.Text.RegularExpressions.wasm",
-      "Wingoria.Forge.AssetLab.nrb8g0q1do.wasm": "Wingoria.Forge.AssetLab.wasm",
-      "Wingoria.ProceduralAssets.jivl9riw0c.wasm": "Wingoria.ProceduralAssets.wasm",
+      "Wingoria.Forge.AssetLab.fa2p80ab2b.wasm": "Wingoria.Forge.AssetLab.wasm",
+      "Wingoria.ProceduralAssets.hih7ux4cc3.wasm": "Wingoria.ProceduralAssets.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
       "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
@@ -92,8 +92,8 @@
       "System.Text.Encodings.Web.az6magofqp.wasm": "sha256-1pYnog+hAQYG5AmoN8yPu2sN7VE8tXMsT6EUst0eUEo=",
       "System.Text.Json.x3cjku2609.wasm": "sha256-DTC1hkUmoTpmv5p35hO5MF5rsBG5lWtoOWZfJMVAwR4=",
       "System.Text.RegularExpressions.qg102jblqy.wasm": "sha256-amXg09G7aLICy0Iw8foAgqu+fMagLaSGRVxDSEaZP44=",
-      "Wingoria.Forge.AssetLab.nrb8g0q1do.wasm": "sha256-k93CWn3g97BFwqPwvU7ZXi9cbkCectV0ycfRtfwFh8A=",
-      "Wingoria.ProceduralAssets.jivl9riw0c.wasm": "sha256-y6cMIRgA2cU2vY5dKbn9ZIorTrg3ruU8dsQ4tw+zgLQ="
+      "Wingoria.Forge.AssetLab.fa2p80ab2b.wasm": "sha256-1z/wLxh1sgwNjsLIZ3wRWsYokGaZFVdGTQgn1hkYl6g=",
+      "Wingoria.ProceduralAssets.hih7ux4cc3.wasm": "sha256-aZb0yuQUK70hok8egPPTFUbixxfeOad8yYWza9vIJRE="
     }
   },
   "cacheBootResources": true,
