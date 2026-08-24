@@ -218,3 +218,7 @@ input[type=file] {
 .chip.on { border-color: var(--wall); background: color-mix(in srgb, var(--wall) 16%, var(--sunken)); color: var(--wall); }
 
 button.minor.gold { border-color: var(--wall); color: var(--wall); }
+.cost {
+  display: block; font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .72rem; font-weight: 400; opacity: .75; margin-top: .15rem;
+}
